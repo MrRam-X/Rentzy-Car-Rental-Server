@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import Car, { ICar } from "../models/Car";
+import Car from "../models/Car";
 
 // GET all cars
 export const getAllCars = async (req: Request, res: Response) => {
@@ -47,7 +47,7 @@ export const updateCar = async (req: Request, res: Response) => {
 // DELETE one or multiple cars
 export const deleteCar = async (req: Request, res: Response) => {
   try {
-    const ids = req.body.ids || [req.params.id];
+    const ids = req.body?.ids || [req.params?.id];
     const result = await Car.deleteMany({ _id: { $in: ids } });
     res.json({ message: "Car(s) deleted", deletedCount: result.deletedCount });
   } catch (error) {
