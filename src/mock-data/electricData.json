@@ -1,0 +1,225 @@
+[
+  {
+    "brand": "Tesla",
+    "model": "Model 3",
+    "year": 2023,
+    "pricePerDay": 110,
+    "priceCurrency": "USD",
+    "carType": "Electric",
+    "generalInformation": "Affordable luxury EV sedan with advanced autopilot and long range.",
+    "benefitPoints": [
+      "Autopilot",
+      "Supercharger access",
+      "Minimalist interior"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 2,
+    "airCondition": true,
+    "minAgeForDrive": 23,
+    "primaryImageUri": "/images/cars/tesla-model3.jpg",
+    "imageGalleryUris": [
+      "/images/cars/tesla-model3-front.jpg",
+      "/images/cars/tesla-model3-interior.jpg"
+    ],
+    "rentalConditions": [
+      {
+        "title": "Charging Policy",
+        "description": "Return with at least 80% battery"
+      },
+      { "title": "Mileage Limit", "description": "320 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model X",
+    "year": 2023,
+    "pricePerDay": 180,
+    "priceCurrency": "USD",
+    "carType": "Electric",
+    "generalInformation": "Luxury all-electric SUV with falcon-wing doors and advanced safety features.",
+    "benefitPoints": ["Falcon wing doors", "Long range", "All-wheel drive"],
+    "doors": 4,
+    "passengers": 7,
+    "transmission": "Automatic",
+    "luggage": 4,
+    "airCondition": true,
+    "minAgeForDrive": 25,
+    "primaryImageUri": "/images/cars/tesla-modelx.jpg",
+    "imageGalleryUris": [
+      "/images/cars/tesla-modelx-side.jpg",
+      "/images/cars/tesla-modelx-interior.jpg"
+    ],
+    "rentalConditions": [
+      {
+        "title": "Charging Policy",
+        "description": "Return with at least 80% battery"
+      },
+      { "title": "Mileage Limit", "description": "300 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Porsche",
+    "model": "Taycan",
+    "year": 2023,
+    "pricePerDay": 200,
+    "priceCurrency": "USD",
+    "carType": "Electric",
+    "generalInformation": "High-performance electric sports sedan with Porsche engineering.",
+    "benefitPoints": [
+      "800V charging",
+      "Sport Chrono package",
+      "Luxurious interior"
+    ],
+    "doors": 4,
+    "passengers": 4,
+    "transmission": "Automatic",
+    "luggage": 2,
+    "airCondition": true,
+    "minAgeForDrive": 25,
+    "primaryImageUri": "/images/cars/porsche-taycan.jpg",
+    "imageGalleryUris": [
+      "/images/cars/porsche-taycan-front.jpg",
+      "/images/cars/porsche-taycan-interior.jpg"
+    ],
+    "rentalConditions": [
+      {
+        "title": "Charging Policy",
+        "description": "Return with at least 70% battery"
+      },
+      { "title": "Mileage Limit", "description": "280 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Audi",
+    "model": "e-tron GT",
+    "year": 2023,
+    "pricePerDay": 170,
+    "priceCurrency": "USD",
+    "carType": "Electric",
+    "generalInformation": "Luxury electric sports sedan with quattro performance.",
+    "benefitPoints": ["Quattro AWD", "Matrix LED headlights", "Rapid charging"],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 25,
+    "primaryImageUri": "/images/cars/audi-etron-gt.jpg",
+    "imageGalleryUris": [
+      "/images/cars/audi-etron-gt-side.jpg",
+      "/images/cars/audi-etron-gt-interior.jpg"
+    ],
+    "rentalConditions": [
+      {
+        "title": "Charging Policy",
+        "description": "Return with at least 75% battery"
+      },
+      { "title": "Mileage Limit", "description": "300 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "BMW",
+    "model": "iX",
+    "year": 2023,
+    "pricePerDay": 160,
+    "priceCurrency": "USD",
+    "carType": "Electric",
+    "generalInformation": "All-electric luxury SUV with futuristic design and spacious cabin.",
+    "benefitPoints": [
+      "Bowers & Wilkins audio",
+      "Advanced driver assist",
+      "Panoramic roof"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 4,
+    "airCondition": true,
+    "minAgeForDrive": 25,
+    "primaryImageUri": "/images/cars/bmw-ix.jpg",
+    "imageGalleryUris": [
+      "/images/cars/bmw-ix-front.jpg",
+      "/images/cars/bmw-ix-interior.jpg"
+    ],
+    "rentalConditions": [
+      {
+        "title": "Charging Policy",
+        "description": "Return with at least 80% battery"
+      },
+      { "title": "Mileage Limit", "description": "310 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Ioniq 5",
+    "year": 2023,
+    "pricePerDay": 100,
+    "priceCurrency": "USD",
+    "carType": "Electric",
+    "generalInformation": "Futuristic crossover EV with ultra-fast charging and innovative interior.",
+    "benefitPoints": [
+      "Ultra-fast charging",
+      "Augmented reality HUD",
+      "Spacious cabin"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 23,
+    "primaryImageUri": "/images/cars/hyundai-ioniq5.jpg",
+    "imageGalleryUris": [
+      "/images/cars/hyundai-ioniq5-side.jpg",
+      "/images/cars/hyundai-ioniq5-interior.jpg"
+    ],
+    "rentalConditions": [
+      {
+        "title": "Charging Policy",
+        "description": "Return with at least 70% battery"
+      },
+      { "title": "Mileage Limit", "description": "320 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Kia",
+    "model": "EV6",
+    "year": 2023,
+    "pricePerDay": 95,
+    "priceCurrency": "USD",
+    "carType": "Electric",
+    "generalInformation": "Stylish and sporty EV with impressive range and performance.",
+    "benefitPoints": [
+      "GT performance version",
+      "Ultra-fast charging",
+      "Dual display screens"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 23,
+    "primaryImageUri": "/images/cars/kia-ev6.jpg",
+    "imageGalleryUris": [
+      "/images/cars/kia-ev6-front.jpg",
+      "/images/cars/kia-ev6-interior.jpg"
+    ],
+    "rentalConditions": [
+      {
+        "title": "Charging Policy",
+        "description": "Return with at least 70% battery"
+      },
+      { "title": "Mileage Limit", "description": "310 km/day included" }
+    ],
+    "available": true
+  }
+]

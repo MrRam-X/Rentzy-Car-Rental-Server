@@ -1,0 +1,200 @@
+[
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2023,
+    "pricePerDay": 95,
+    "priceCurrency": "USD",
+    "carType": "Sedan",
+    "generalInformation": "Reliable mid-size sedan with excellent fuel efficiency.",
+    "benefitPoints": ["Spacious cabin", "Adaptive cruise", "Lane keep assist"],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 23,
+    "primaryImageUri": "/images/cars/toyota-camry.jpg",
+    "imageGalleryUris": [
+      "/images/cars/toyota-camry-front.jpg",
+      "/images/cars/toyota-camry-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "300 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Honda",
+    "model": "Accord",
+    "year": 2023,
+    "pricePerDay": 100,
+    "priceCurrency": "USD",
+    "carType": "Sedan",
+    "generalInformation": "Stylish family sedan with comfort and safety features.",
+    "benefitPoints": ["Apple CarPlay", "Honda Sensing suite", "Fuel efficient"],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 23,
+    "primaryImageUri": "/images/cars/honda-accord.jpg",
+    "imageGalleryUris": [
+      "/images/cars/honda-accord-side.jpg",
+      "/images/cars/honda-accord-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "300 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "year": 2022,
+    "pricePerDay": 130,
+    "priceCurrency": "USD",
+    "carType": "Sedan",
+    "generalInformation": "Premium midsize sedan offering quattro AWD and futuristic tech.",
+    "benefitPoints": [
+      "Virtual cockpit",
+      "Matrix LED headlights",
+      "Bang & Olufsen sound"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 24,
+    "primaryImageUri": "/images/cars/audi-a6.jpg",
+    "imageGalleryUris": [
+      "/images/cars/audi-a6-front.jpg",
+      "/images/cars/audi-a6-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "280 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Lexus",
+    "model": "ES 350",
+    "year": 2023,
+    "pricePerDay": 120,
+    "priceCurrency": "USD",
+    "carType": "Sedan",
+    "generalInformation": "Luxury Japanese sedan offering comfort and efficiency.",
+    "benefitPoints": [
+      "Mark Levinson audio",
+      "Heated & ventilated seats",
+      "Smooth suspension"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 24,
+    "primaryImageUri": "/images/cars/lexus-es350.jpg",
+    "imageGalleryUris": [
+      "/images/cars/lexus-es350-side.jpg",
+      "/images/cars/lexus-es350-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "300 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Tesla",
+    "model": "Model S",
+    "year": 2023,
+    "pricePerDay": 180,
+    "priceCurrency": "USD",
+    "carType": "Sedan",
+    "generalInformation": "All-electric luxury sedan with cutting-edge technology and acceleration.",
+    "benefitPoints": ["Autopilot", "Long-range battery", "15-inch touchscreen"],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 25,
+    "primaryImageUri": "/images/cars/tesla-models.jpg",
+    "imageGalleryUris": [
+      "/images/cars/tesla-models-front.jpg",
+      "/images/cars/tesla-models-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Charge to full" },
+      { "title": "Mileage Limit", "description": "350 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Jaguar",
+    "model": "XF",
+    "year": 2022,
+    "pricePerDay": 125,
+    "priceCurrency": "USD",
+    "carType": "Sedan",
+    "generalInformation": "British executive sedan with stylish design and dynamic performance.",
+    "benefitPoints": [
+      "Meridian audio",
+      "Luxury cabin",
+      "Efficient turbo engine"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 24,
+    "primaryImageUri": "/images/cars/jaguar-xf.jpg",
+    "imageGalleryUris": [
+      "/images/cars/jaguar-xf-front.jpg",
+      "/images/cars/jaguar-xf-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "280 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Sonata",
+    "year": 2023,
+    "pricePerDay": 90,
+    "priceCurrency": "USD",
+    "carType": "Sedan",
+    "generalInformation": "Mid-size family sedan with modern design and smart technology.",
+    "benefitPoints": [
+      "SmartSense safety",
+      "Bose premium audio",
+      "Panoramic sunroof"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 23,
+    "primaryImageUri": "/images/cars/hyundai-sonata.jpg",
+    "imageGalleryUris": [
+      "/images/cars/hyundai-sonata-side.jpg",
+      "/images/cars/hyundai-sonata-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "320 km/day included" }
+    ],
+    "available": true
+  }
+]

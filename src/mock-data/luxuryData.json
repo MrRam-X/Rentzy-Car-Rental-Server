@@ -1,0 +1,208 @@
+[
+  {
+    "brand": "BMW",
+    "model": "7 Series",
+    "year": 2023,
+    "pricePerDay": 180,
+    "priceCurrency": "USD",
+    "carType": "Luxury",
+    "generalInformation": "Flagship BMW sedan combining advanced technology with unmatched driving comfort.",
+    "benefitPoints": [
+      "Leather interior",
+      "Adaptive cruise control",
+      "Premium sound system"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 25,
+    "primaryImageUri": "/images/cars/bmw-7series.jpg",
+    "imageGalleryUris": [
+      "/images/cars/bmw-7series-front.jpg",
+      "/images/cars/bmw-7series-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "250 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "S-Class",
+    "year": 2023,
+    "pricePerDay": 200,
+    "priceCurrency": "USD",
+    "carType": "Luxury",
+    "generalInformation": "The pinnacle of luxury sedans with cutting-edge technology and supreme comfort.",
+    "benefitPoints": ["Massage seats", "Ambient lighting", "Burmester audio"],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 26,
+    "primaryImageUri": "/images/cars/mercedes-sclass.jpg",
+    "imageGalleryUris": [
+      "/images/cars/mercedes-sclass-side.jpg",
+      "/images/cars/mercedes-sclass-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "250 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Audi",
+    "model": "A8",
+    "year": 2022,
+    "pricePerDay": 170,
+    "priceCurrency": "USD",
+    "carType": "Luxury",
+    "generalInformation": "Audi’s flagship sedan offering elegance, quattro AWD, and futuristic tech.",
+    "benefitPoints": [
+      "Quattro all-wheel drive",
+      "Virtual cockpit",
+      "Bang & Olufsen sound"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 25,
+    "primaryImageUri": "/images/cars/audi-a8.jpg",
+    "imageGalleryUris": [
+      "/images/cars/audi-a8-front.jpg",
+      "/images/cars/audi-a8-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "250 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Lexus",
+    "model": "LS 500",
+    "year": 2023,
+    "pricePerDay": 160,
+    "priceCurrency": "USD",
+    "carType": "Luxury",
+    "generalInformation": "Refined Japanese luxury sedan with smooth ride and attention to detail.",
+    "benefitPoints": [
+      "Mark Levinson audio",
+      "Heated & ventilated seats",
+      "Adaptive suspension"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 25,
+    "primaryImageUri": "/images/cars/lexus-ls500.jpg",
+    "imageGalleryUris": [
+      "/images/cars/lexus-ls500-side.jpg",
+      "/images/cars/lexus-ls500-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "260 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Jaguar",
+    "model": "XJ",
+    "year": 2021,
+    "pricePerDay": 150,
+    "priceCurrency": "USD",
+    "carType": "Luxury",
+    "generalInformation": "Iconic British luxury sedan blending tradition with modern driving dynamics.",
+    "benefitPoints": [
+      "Panoramic sunroof",
+      "Premium leather cabin",
+      "Meridian audio system"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 24,
+    "primaryImageUri": "/images/cars/jaguar-xj.jpg",
+    "imageGalleryUris": [
+      "/images/cars/jaguar-xj-front.jpg",
+      "/images/cars/jaguar-xj-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "240 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Genesis",
+    "model": "G90",
+    "year": 2023,
+    "pricePerDay": 155,
+    "priceCurrency": "USD",
+    "carType": "Luxury",
+    "generalInformation": "Korean luxury sedan offering high-end features at an attractive price point.",
+    "benefitPoints": [
+      "Nappa leather",
+      "Rear seat entertainment",
+      "Highway driving assist"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 24,
+    "primaryImageUri": "/images/cars/genesis-g90.jpg",
+    "imageGalleryUris": [
+      "/images/cars/genesis-g90-side.jpg",
+      "/images/cars/genesis-g90-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "250 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Rolls-Royce",
+    "model": "Ghost",
+    "year": 2022,
+    "pricePerDay": 500,
+    "priceCurrency": "USD",
+    "carType": "Luxury",
+    "generalInformation": "The ultimate luxury sedan delivering unmatched prestige and craftsmanship.",
+    "benefitPoints": [
+      "Handcrafted interior",
+      "Starlight headliner",
+      "Effortless V12 engine"
+    ],
+    "doors": 4,
+    "passengers": 4,
+    "transmission": "Automatic",
+    "luggage": 2,
+    "airCondition": true,
+    "minAgeForDrive": 30,
+    "primaryImageUri": "/images/cars/rolls-royce-ghost.jpg",
+    "imageGalleryUris": [
+      "/images/cars/rolls-royce-ghost-front.jpg",
+      "/images/cars/rolls-royce-ghost-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "200 km/day included" }
+    ],
+    "available": true
+  }
+]

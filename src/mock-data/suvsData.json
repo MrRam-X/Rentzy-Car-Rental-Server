@@ -1,0 +1,206 @@
+[
+  {
+    "brand": "BMW",
+    "model": "X7",
+    "year": 2023,
+    "pricePerDay": 160,
+    "priceCurrency": "USD",
+    "carType": "SUV",
+    "generalInformation": "Luxury full-size SUV with three rows of seating and advanced tech features.",
+    "benefitPoints": [
+      "Panoramic sunroof",
+      "iDrive infotainment",
+      "Premium leather interior"
+    ],
+    "doors": 4,
+    "passengers": 7,
+    "transmission": "Automatic",
+    "luggage": 4,
+    "airCondition": true,
+    "minAgeForDrive": 25,
+    "primaryImageUri": "https://i.postimg.cc/RW2MCwNN/BMW-X7-2.jpg",
+    "imageGalleryUris": [
+      "https://i.postimg.cc/dhhsK5Qb/BMW-X7.jpg",
+      "https://i.postimg.cc/YSCj337y/BMW-X7-Interior2.jpg",
+      "https://i.postimg.cc/21gzjnV4/BMW-X7-Interior2.jpg",
+      "https://i.postimg.cc/qNWkB2z5/BMW-X7-Interior3.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "300 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "GLS",
+    "year": 2023,
+    "pricePerDay": 170,
+    "priceCurrency": "USD",
+    "carType": "SUV",
+    "generalInformation": "Known as the S-Class of SUVs, offering maximum luxury and comfort.",
+    "benefitPoints": ["Air suspension", "MBUX system", "Heated & cooled seats"],
+    "doors": 4,
+    "passengers": 7,
+    "transmission": "Automatic",
+    "luggage": 4,
+    "airCondition": true,
+    "minAgeForDrive": 26,
+    "primaryImageUri": "/images/cars/mercedes-gls.jpg",
+    "imageGalleryUris": [
+      "/images/cars/mercedes-gls-side.jpg",
+      "/images/cars/mercedes-gls-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "280 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Audi",
+    "model": "Q7",
+    "year": 2022,
+    "pricePerDay": 140,
+    "priceCurrency": "USD",
+    "carType": "SUV",
+    "generalInformation": "Luxury midsize SUV with quattro AWD and advanced driver assistance.",
+    "benefitPoints": ["Virtual cockpit", "Matrix LED lights", "Premium sound"],
+    "doors": 4,
+    "passengers": 7,
+    "transmission": "Automatic",
+    "luggage": 4,
+    "airCondition": true,
+    "minAgeForDrive": 25,
+    "primaryImageUri": "/images/cars/audi-q7.jpg",
+    "imageGalleryUris": [
+      "/images/cars/audi-q7-front.jpg",
+      "/images/cars/audi-q7-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "300 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Land Rover",
+    "model": "Range Rover",
+    "year": 2023,
+    "pricePerDay": 220,
+    "priceCurrency": "USD",
+    "carType": "SUV",
+    "generalInformation": "The ultimate luxury off-road SUV, combining capability and refinement.",
+    "benefitPoints": [
+      "Terrain Response system",
+      "Luxury cabin",
+      "Panoramic roof"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 4,
+    "airCondition": true,
+    "minAgeForDrive": 27,
+    "primaryImageUri": "https://i.postimg.cc/gx1Yc3n7/Range-Rover.jpg",
+    "imageGalleryUris": [
+      "https://i.postimg.cc/vgsbfM76/Range-Rover2.jpg",
+      "https://i.postimg.cc/ZBS4pZPB/Range-Rover-Interior.jpg",
+      "https://i.postimg.cc/R6B4K91L/Range-Rover-Interior2.jpg",
+      "https://i.postimg.cc/XGb4d3Kc/Range-Rover-Interior3.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "250 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Porsche",
+    "model": "Cayenne",
+    "year": 2023,
+    "pricePerDay": 190,
+    "priceCurrency": "USD",
+    "carType": "SUV",
+    "generalInformation": "Luxury performance SUV with sporty handling and elegant design.",
+    "benefitPoints": [
+      "Sport chrono package",
+      "Premium leather seats",
+      "Adaptive suspension"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 26,
+    "primaryImageUri": "/images/cars/porsche-cayenne.jpg",
+    "imageGalleryUris": [
+      "/images/cars/porsche-cayenne-side.jpg",
+      "/images/cars/porsche-cayenne-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "270 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Toyota",
+    "model": "Land Cruiser",
+    "year": 2022,
+    "pricePerDay": 130,
+    "priceCurrency": "USD",
+    "carType": "SUV",
+    "generalInformation": "Reliable off-road SUV with legendary durability and performance.",
+    "benefitPoints": ["4x4 drivetrain", "Rugged chassis", "Spacious interior"],
+    "doors": 4,
+    "passengers": 7,
+    "transmission": "Automatic",
+    "luggage": 4,
+    "airCondition": true,
+    "minAgeForDrive": 24,
+    "primaryImageUri": "https://i.postimg.cc/gXHdK541/Toyota-Land-Cruiser.jpg",
+    "imageGalleryUris": [
+      "https://i.postimg.cc/vgtMvjXp/Toyota-Land-Cruiser2.jpg",
+      "https://i.postimg.cc/30rhfBbc/Toyota-Land-Cruiser3.jpg",
+      "https://i.postimg.cc/m1Z4pw5H/Toyota-Land-Cruiser-Interior.jpg",
+      "https://i.postimg.cc/grGG0zkM/Toyota-Land-Cruiser-Interior2.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "320 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Rolls-Royce",
+    "model": "Cullinan",
+    "year": 2023,
+    "pricePerDay": 600,
+    "priceCurrency": "USD",
+    "carType": "SUV",
+    "generalInformation": "The world’s most luxurious SUV with ultimate prestige and comfort.",
+    "benefitPoints": [
+      "Handcrafted interior",
+      "Starlight headliner",
+      "Effortless V12 engine"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 3,
+    "airCondition": true,
+    "minAgeForDrive": 30,
+    "primaryImageUri": "/images/cars/rolls-royce-cullinan.jpg",
+    "imageGalleryUris": [
+      "/images/cars/rolls-royce-cullinan-front.jpg",
+      "/images/cars/rolls-royce-cullinan-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "200 km/day included" }
+    ],
+    "available": true
+  }
+]

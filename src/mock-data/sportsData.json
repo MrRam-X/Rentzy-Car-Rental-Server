@@ -1,0 +1,230 @@
+[
+  {
+    "brand": "Porsche",
+    "model": "911 Carrera",
+    "year": 2023,
+    "pricePerDay": 300,
+    "priceCurrency": "USD",
+    "carType": "Sports",
+    "generalInformation": "Iconic sports car with powerful performance and timeless design.",
+    "benefitPoints": [
+      "Turbocharged engine",
+      "Sport Chrono package",
+      "Premium leather seats"
+    ],
+    "doors": 2,
+    "passengers": 2,
+    "transmission": "Automatic",
+    "luggage": 1,
+    "airCondition": true,
+    "minAgeForDrive": 27,
+    "primaryImageUri": "/images/cars/porsche-911.jpg",
+    "imageGalleryUris": [
+      "/images/cars/porsche-911-front.jpg",
+      "/images/cars/porsche-911-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "200 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Ferrari",
+    "model": "488 GTB",
+    "year": 2023,
+    "pricePerDay": 450,
+    "priceCurrency": "USD",
+    "carType": "Sports",
+    "generalInformation": "Exotic Italian supercar known for speed and luxury.",
+    "benefitPoints": [
+      "V8 twin turbo engine",
+      "Carbon fiber interior",
+      "Launch control"
+    ],
+    "doors": 2,
+    "passengers": 2,
+    "transmission": "Automatic",
+    "luggage": 1,
+    "airCondition": true,
+    "minAgeForDrive": 28,
+    "primaryImageUri": "/images/cars/ferrari-488.jpg",
+    "imageGalleryUris": [
+      "/images/cars/ferrari-488-side.jpg",
+      "/images/cars/ferrari-488-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "150 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Huracán EVO",
+    "year": 2023,
+    "pricePerDay": 500,
+    "priceCurrency": "USD",
+    "carType": "Sports",
+    "generalInformation": "Aggressive styling with a roaring V10 engine.",
+    "benefitPoints": [
+      "Naturally aspirated V10",
+      "Sport+ mode",
+      "LED matrix headlights"
+    ],
+    "doors": 2,
+    "passengers": 2,
+    "transmission": "Automatic",
+    "luggage": 1,
+    "airCondition": true,
+    "minAgeForDrive": 30,
+    "primaryImageUri": "/images/cars/lamborghini-huracan.jpg",
+    "imageGalleryUris": [
+      "/images/cars/lamborghini-huracan-front.jpg",
+      "/images/cars/lamborghini-huracan-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "120 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Audi",
+    "model": "R8",
+    "year": 2023,
+    "pricePerDay": 350,
+    "priceCurrency": "USD",
+    "carType": "Sports",
+    "generalInformation": "Audi’s flagship supercar with quattro AWD and V10 engine.",
+    "benefitPoints": [
+      "V10 engine",
+      "Quattro all-wheel drive",
+      "Virtual cockpit display"
+    ],
+    "doors": 2,
+    "passengers": 2,
+    "transmission": "Automatic",
+    "luggage": 1,
+    "airCondition": true,
+    "minAgeForDrive": 27,
+    "primaryImageUri": "/images/cars/audi-r8.jpg",
+    "imageGalleryUris": [
+      "/images/cars/audi-r8-front.jpg",
+      "/images/cars/audi-r8-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "200 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "McLaren",
+    "model": "720S",
+    "year": 2023,
+    "pricePerDay": 480,
+    "priceCurrency": "USD",
+    "carType": "Sports",
+    "generalInformation": "Super-lightweight carbon fiber body with insane acceleration.",
+    "benefitPoints": ["Twin turbo V8", "Butterfly doors", "Track mode"],
+    "doors": 2,
+    "passengers": 2,
+    "transmission": "Automatic",
+    "luggage": 1,
+    "airCondition": true,
+    "minAgeForDrive": 29,
+    "primaryImageUri": "/images/cars/mclaren-720s.jpg",
+    "imageGalleryUris": [
+      "/images/cars/mclaren-720s-front.jpg",
+      "/images/cars/mclaren-720s-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "130 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Chevrolet",
+    "model": "Corvette C8",
+    "year": 2023,
+    "pricePerDay": 200,
+    "priceCurrency": "USD",
+    "carType": "Sports",
+    "generalInformation": "Affordable American mid-engine sports car.",
+    "benefitPoints": [
+      "Mid-engine layout",
+      "Removable roof panel",
+      "Performance exhaust"
+    ],
+    "doors": 2,
+    "passengers": 2,
+    "transmission": "Automatic",
+    "luggage": 2,
+    "airCondition": true,
+    "minAgeForDrive": 25,
+    "primaryImageUri": "/images/cars/corvette-c8.jpg",
+    "imageGalleryUris": [
+      "/images/cars/corvette-c8-front.jpg",
+      "/images/cars/corvette-c8-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "250 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Nissan",
+    "model": "GT-R",
+    "year": 2023,
+    "pricePerDay": 220,
+    "priceCurrency": "USD",
+    "carType": "Sports",
+    "generalInformation": "Japanese legend with supercar performance.",
+    "benefitPoints": ["Twin-turbo V6", "All-wheel drive", "Launch control"],
+    "doors": 2,
+    "passengers": 4,
+    "transmission": "Automatic",
+    "luggage": 2,
+    "airCondition": true,
+    "minAgeForDrive": 25,
+    "primaryImageUri": "/images/cars/nissan-gtr.jpg",
+    "imageGalleryUris": [
+      "/images/cars/nissan-gtr-front.jpg",
+      "/images/cars/nissan-gtr-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "230 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Jaguar",
+    "model": "F-Type R",
+    "year": 2023,
+    "pricePerDay": 210,
+    "priceCurrency": "USD",
+    "carType": "Sports",
+    "generalInformation": "Stylish British sports car with supercharged V8 engine.",
+    "benefitPoints": ["Supercharged V8", "Sport exhaust", "Convertible option"],
+    "doors": 2,
+    "passengers": 2,
+    "transmission": "Automatic",
+    "luggage": 1,
+    "airCondition": true,
+    "minAgeForDrive": 26,
+    "primaryImageUri": "/images/cars/jaguar-ftype.jpg",
+    "imageGalleryUris": [
+      "/images/cars/jaguar-ftype-front.jpg",
+      "/images/cars/jaguar-ftype-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "220 km/day included" }
+    ],
+    "available": true
+  }
+]
