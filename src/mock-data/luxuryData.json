@@ -18,10 +18,12 @@
     "luggage": 3,
     "airCondition": true,
     "minAgeForDrive": 25,
-    "primaryImageUri": "/images/cars/bmw-7series.jpg",
+    "primaryImageUri": "BMW7Series.jpg",
     "imageGalleryUris": [
-      "/images/cars/bmw-7series-front.jpg",
-      "/images/cars/bmw-7series-interior.jpg"
+      "BMW7series2.jpg",
+      "BMW7SeriesInterior.jpg",
+      "BMW7SeriesInterior2.jpg",
+      "BMW7SeriesInterior3.jpg"
     ],
     "rentalConditions": [
       { "title": "Fuel Policy", "description": "Full to full" },
@@ -44,10 +46,12 @@
     "luggage": 3,
     "airCondition": true,
     "minAgeForDrive": 26,
-    "primaryImageUri": "/images/cars/mercedes-sclass.jpg",
+    "primaryImageUri": "MercedesSClass.jpg",
     "imageGalleryUris": [
-      "/images/cars/mercedes-sclass-side.jpg",
-      "/images/cars/mercedes-sclass-interior.jpg"
+      "MercedesSClass2.jpg",
+      "MercedesSClassInterior.jpg",
+      "MercedesSClassInterior2.jpg",
+      "MercedesSClassInterior3.jpg"
     ],
     "rentalConditions": [
       { "title": "Fuel Policy", "description": "Full to full" },
@@ -74,10 +78,12 @@
     "luggage": 3,
     "airCondition": true,
     "minAgeForDrive": 25,
-    "primaryImageUri": "/images/cars/audi-a8.jpg",
+    "primaryImageUri": "AudiA8-2.jpg",
     "imageGalleryUris": [
-      "/images/cars/audi-a8-front.jpg",
-      "/images/cars/audi-a8-interior.jpg"
+      "AudiA8.jpg",
+      "AudiA8Interior.jpg",
+      "AudiA8Interior2.jpg",
+      "AudiA8Interior3.jpg"
     ],
     "rentalConditions": [
       { "title": "Fuel Policy", "description": "Full to full" },
@@ -104,10 +110,12 @@
     "luggage": 3,
     "airCondition": true,
     "minAgeForDrive": 25,
-    "primaryImageUri": "/images/cars/lexus-ls500.jpg",
+    "primaryImageUri": "LexusLS500-2.jpg",
     "imageGalleryUris": [
-      "/images/cars/lexus-ls500-side.jpg",
-      "/images/cars/lexus-ls500-interior.jpg"
+      "LexusLS500.jpg",
+      "LexusLS500Interior.jpg",
+      "LexusLS500Interior2.jpg",
+      "LexusLS500Interior3.jpg"
     ],
     "rentalConditions": [
       { "title": "Fuel Policy", "description": "Full to full" },

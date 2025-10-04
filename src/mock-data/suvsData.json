@@ -18,12 +18,12 @@
     "luggage": 4,
     "airCondition": true,
     "minAgeForDrive": 25,
-    "primaryImageUri": "https://i.postimg.cc/RW2MCwNN/BMW-X7-2.jpg",
+    "primaryImageUri": "BMW-X7-2.jpg",
     "imageGalleryUris": [
-      "https://i.postimg.cc/dhhsK5Qb/BMW-X7.jpg",
-      "https://i.postimg.cc/YSCj337y/BMW-X7-Interior2.jpg",
-      "https://i.postimg.cc/21gzjnV4/BMW-X7-Interior2.jpg",
-      "https://i.postimg.cc/qNWkB2z5/BMW-X7-Interior3.jpg"
+      "BMW-X7.jpg",
+      "BMW-X7-Interior.jpg",
+      "BMW-X7-Interior2.jpg",
+      "BMW-X7-Interior3.jpg"
     ],
     "rentalConditions": [
       { "title": "Fuel Policy", "description": "Full to full" },
@@ -102,12 +102,12 @@
     "luggage": 4,
     "airCondition": true,
     "minAgeForDrive": 27,
-    "primaryImageUri": "https://i.postimg.cc/gx1Yc3n7/Range-Rover.jpg",
+    "primaryImageUri": "Range-Rover.jpg",
     "imageGalleryUris": [
-      "https://i.postimg.cc/vgsbfM76/Range-Rover2.jpg",
-      "https://i.postimg.cc/ZBS4pZPB/Range-Rover-Interior.jpg",
-      "https://i.postimg.cc/R6B4K91L/Range-Rover-Interior2.jpg",
-      "https://i.postimg.cc/XGb4d3Kc/Range-Rover-Interior3.jpg"
+      "Range-Rover2.jpg",
+      "Range-Rover-Interior.jpg",
+      "Range-Rover-Interior2.jpg",
+      "Range-Rover-Interior3.jpg"
     ],
     "rentalConditions": [
       { "title": "Fuel Policy", "description": "Full to full" },
@@ -160,12 +160,12 @@
     "luggage": 4,
     "airCondition": true,
     "minAgeForDrive": 24,
-    "primaryImageUri": "https://i.postimg.cc/gXHdK541/Toyota-Land-Cruiser.jpg",
+    "primaryImageUri": "Toyota-Land-Cruiser.jpg",
     "imageGalleryUris": [
-      "https://i.postimg.cc/vgtMvjXp/Toyota-Land-Cruiser2.jpg",
-      "https://i.postimg.cc/30rhfBbc/Toyota-Land-Cruiser3.jpg",
-      "https://i.postimg.cc/m1Z4pw5H/Toyota-Land-Cruiser-Interior.jpg",
-      "https://i.postimg.cc/grGG0zkM/Toyota-Land-Cruiser-Interior2.jpg"
+      "Toyota-Land-Cruiser2.jpg",
+      "Toyota-Land-Cruiser3.jpg",
+      "Toyota-Land-Cruiser-Interior.jpg",
+      "Toyota-Land-Cruiser-Interior2.jpg"
     ],
     "rentalConditions": [
       { "title": "Fuel Policy", "description": "Full to full" },
