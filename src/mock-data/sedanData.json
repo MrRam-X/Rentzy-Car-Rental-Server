@@ -16,10 +16,12 @@
     "airBags": 2,
     "airCondition": true,
     "minAgeForDrive": 23,
-    "primaryImageUri": "/images/cars/toyota-camry.jpg",
+    "primaryImageUri": "ToyotaCamry.jpg",
     "imageGalleryUris": [
-      "/images/cars/toyota-camry-front.jpg",
-      "/images/cars/toyota-camry-interior.jpg"
+      "ToyotaCamry2.jpg",
+      "ToyotaCamryInterior.jpg",
+      "ToyotaCamryInterior2.jpg",
+      "ToyotaCamryInterior3.jpg"
     ],
     "rentalConditions": [
       { "title": "Fuel Policy", "description": "Full to full" },
@@ -44,10 +46,12 @@
     "airBags": 2,
     "airCondition": true,
     "minAgeForDrive": 23,
-    "primaryImageUri": "/images/cars/honda-accord.jpg",
+    "primaryImageUri": "HondaAccord.jpg",
     "imageGalleryUris": [
-      "/images/cars/honda-accord-side.jpg",
-      "/images/cars/honda-accord-interior.jpg"
+      "HondaAccord2.jpg",
+      "HondaAccordInterior.jpg",
+      "HondaAccordInterior2.jpg",
+      "HondaAccordInterior3.jpg"
     ],
     "rentalConditions": [
       { "title": "Fuel Policy", "description": "Full to full" },
@@ -76,10 +80,12 @@
     "airBags": 2,
     "airCondition": true,
     "minAgeForDrive": 24,
-    "primaryImageUri": "/images/cars/audi-a6.jpg",
+    "primaryImageUri": "AudiA6.jpg",
     "imageGalleryUris": [
-      "/images/cars/audi-a6-front.jpg",
-      "/images/cars/audi-a6-interior.jpg"
+      "AudiA6-2.jpg",
+      "AudiA6Interior.jpg",
+      "AudiA6Interior2.jpg",
+      "AudiA6Interior3.jpg"
     ],
     "rentalConditions": [
       { "title": "Fuel Policy", "description": "Full to full" },

@@ -20,10 +20,12 @@
     "airBags": 2,
     "airCondition": true,
     "minAgeForDrive": 23,
-    "primaryImageUri": "/images/cars/tesla-model3.jpg",
+    "primaryImageUri": "TeslaModel3.jpg",
     "imageGalleryUris": [
-      "/images/cars/tesla-model3-front.jpg",
-      "/images/cars/tesla-model3-interior.jpg"
+      "TeslaModel3-2.jpg",
+      "TeslaModel3Interior.jpg",
+      "TeslaModel3Interior2.jpg",
+      "TeslaModel3Interior3.jpg"
     ],
     "rentalConditions": [
       {
@@ -86,10 +88,13 @@
     "airBags": 2,
     "airCondition": true,
     "minAgeForDrive": 25,
-    "primaryImageUri": "/images/cars/porsche-taycan.jpg",
+    "primaryImageUri": "PorscheTaycan.jpg",
     "imageGalleryUris": [
-      "/images/cars/porsche-taycan-front.jpg",
-      "/images/cars/porsche-taycan-interior.jpg"
+      "PorscheTaycan2.jpg",
+      "PorscheTaycan3.jpg",
+      "PorscheTaycanInterior.jpg",
+      "PorscheTaycanInterior2.jpg",
+      "PorscheTaycanInterior3.jpg"
     ],
     "rentalConditions": [
       {
@@ -117,10 +122,12 @@
     "airBags": 2,
     "airCondition": true,
     "minAgeForDrive": 25,
-    "primaryImageUri": "/images/cars/audi-etron-gt.jpg",
+    "primaryImageUri": "AudiE-Tron-GT.jpg",
     "imageGalleryUris": [
-      "/images/cars/audi-etron-gt-side.jpg",
-      "/images/cars/audi-etron-gt-interior.jpg"
+      "AudiE-Tron-GT2.jpg",
+      "AudiE-Tron-GTInterior.jpg",
+      "AudiE-Tron-GTInterior2.jpg",
+      "AudiE-Tron-GTInterior3.jpg"
     ],
     "rentalConditions": [
       {
