@@ -13,6 +13,8 @@ export interface ICar {
   passengers: number;
   transmission: string;
   luggage: number;
+  fuel: string;
+  airBags: number;
   airCondition: boolean;
   minAgeForDrive: number;
   primaryImageUri: string;
@@ -20,7 +22,7 @@ export interface ICar {
   rentalConditions: {
     title: string;
     description: string;
-  }[]
+  }[];
   available: boolean;
 }
 
@@ -40,6 +42,8 @@ const carSchema = new Schema<ICar>(
     passengers: { type: Number, required: true },
     transmission: { type: String, required: true },
     luggage: { type: Number, required: true },
+    fuel: { type: String, required: true },
+    airBags: { type: Number, required: true },
     airCondition: { type: Boolean, default: true },
     minAgeForDrive: { type: Number, required: true },
     primaryImageUri: { type: String, required: true },
@@ -54,6 +58,5 @@ const carSchema = new Schema<ICar>(
   },
   { timestamps: true }
 );
-
 
 export default model<ICar>("Car", carSchema);
