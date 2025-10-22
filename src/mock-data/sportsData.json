@@ -20,10 +20,12 @@
     "airBags": 2,
     "airCondition": true,
     "minAgeForDrive": 27,
-    "primaryImageUri": "/images/cars/porsche-911.jpg",
+    "primaryImageUri": "Porsche911Carrera.jpg",
     "imageGalleryUris": [
-      "/images/cars/porsche-911-front.jpg",
-      "/images/cars/porsche-911-interior.jpg"
+      "Porsche911Carrera2.jpg",
+      "Porsche911CarreraInterior.jpg",
+      "Porsche911CarreraInterior2.jpg",
+      "Porsche911CarreraInterior3.jpg"
     ],
     "rentalConditions": [
       { "title": "Fuel Policy", "description": "Full to full" },
@@ -52,10 +54,12 @@
     "airBags": 2,
     "airCondition": true,
     "minAgeForDrive": 28,
-    "primaryImageUri": "/images/cars/ferrari-488.jpg",
+    "primaryImageUri": "Ferrari488GTB.jpg",
     "imageGalleryUris": [
-      "/images/cars/ferrari-488-side.jpg",
-      "/images/cars/ferrari-488-interior.jpg"
+      "Ferrari488GTB2.jpg",
+      "Ferrari488GTBInterior.jpg",
+      "Ferrari488GTBInterior2.jpg",
+      "Ferrari488GTBInterior3.jpg"
     ],
     "rentalConditions": [
       { "title": "Fuel Policy", "description": "Full to full" },
@@ -84,10 +88,12 @@
     "airBags": 2,
     "airCondition": true,
     "minAgeForDrive": 30,
-    "primaryImageUri": "/images/cars/lamborghini-huracan.jpg",
+    "primaryImageUri": "LamborghiniHuracanEvo.jpg",
     "imageGalleryUris": [
-      "/images/cars/lamborghini-huracan-front.jpg",
-      "/images/cars/lamborghini-huracan-interior.jpg"
+      "LamborghiniHuracanEvo2.jpg",
+      "LamborghiniHuracanEvoInterior.jpg",
+      "LamborghiniHuracanEvoInterior2.jpg",
+      "LamborghiniHuracanEvoInterior3.jpg"
     ],
     "rentalConditions": [
       { "title": "Fuel Policy", "description": "Full to full" },
