@@ -1,0 +1,206 @@
+[
+  {
+    "serviceTitle": "Corporate Car Rental",
+    "serviceDescription": "Premium car rental solutions for corporate clients, ensuring comfort, punctuality, and professionalism for business travel needs.",
+    "serviceDetails": [
+      {
+        "title": "Flexible Fleet Options",
+        "description": "Choose from sedans, SUVs, or luxury vehicles based on your company’s needs and travel requirements."
+      },
+      {
+        "title": "Monthly & Yearly Plans",
+        "description": "Custom rental plans available for long-term corporate tie-ups with discounted pricing and flexible billing."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "description": "Experienced and trained drivers to ensure safe and comfortable travel for executives."
+      }
+    ],
+    "benefitPoints": [
+      "Priority booking for corporate clients",
+      "Flexible invoicing and payment cycles",
+      "Dedicated account manager for support",
+      "On-time pickup and drop-off guaranteed"
+    ],
+    "serviceConditions": [
+      {
+        "title": "Minimum Booking Duration",
+        "description": "Corporate rentals require a minimum booking of 4 hours per trip or a monthly subscription plan."
+      },
+      {
+        "title": "Driver Availability",
+        "description": "Chauffeur availability may vary during peak hours. Advance booking is recommended."
+      }
+    ]
+  },
+  {
+    "serviceTitle": "Car Rental with Driver",
+    "serviceDescription": "Enjoy a hassle-free ride with our car rental service that comes with a professional driver for your convenience.",
+    "serviceDetails": [
+      {
+        "title": "Wide Range of Vehicles",
+        "description": "Choose from hatchbacks, sedans, SUVs, and luxury cars driven by trained professionals."
+      },
+      {
+        "title": "Hourly and Daily Rentals",
+        "description": "Flexible rental durations to suit your travel plans and schedule."
+      },
+      {
+        "title": "Trained Chauffeurs",
+        "description": "Drivers are background-verified and trained for city and highway driving."
+      }
+    ],
+    "benefitPoints": [
+      "No parking or navigation stress",
+      "24/7 customer support",
+      "Fuel and tolls included in most packages",
+      "AC and non-AC options available"
+    ],
+    "serviceConditions": [
+      {
+        "title": "Driver Meals",
+        "description": "For outstation trips, driver meals and accommodation should be provided by the customer."
+      },
+      {
+        "title": "Extra Hours",
+        "description": "Additional hours will be charged at standard hourly rates."
+      }
+    ]
+  },
+  {
+    "serviceTitle": "Airport Drive",
+    "serviceDescription": "Reliable airport pickup and drop services ensuring punctuality, comfort, and smooth transfers.",
+    "serviceDetails": [
+      {
+        "title": "On-Time Guarantee",
+        "description": "We monitor flight schedules to ensure on-time pickups and drops."
+      },
+      {
+        "title": "Meet & Greet Service",
+        "description": "Chauffeurs assist you with luggage and provide a smooth airport transition."
+      },
+      {
+        "title": "Fixed Pricing",
+        "description": "Transparent pricing with no hidden charges, regardless of traffic conditions."
+      }
+    ],
+    "benefitPoints": [
+      "Available 24x7 including holidays",
+      "Flight tracking for accurate pickup timing",
+      "Free 30-minute waiting time at airport",
+      "Clean and sanitized vehicles"
+    ],
+    "serviceConditions": [
+      {
+        "title": "Waiting Time",
+        "description": "Extra waiting beyond the free limit will be charged at standard hourly rates."
+      },
+      {
+        "title": "Cancellation Policy",
+        "description": "Free cancellation up to 2 hours before scheduled pickup."
+      }
+    ]
+  },
+  {
+    "serviceTitle": "Wedding Car Service",
+    "serviceDescription": "Luxury cars decorated and prepared for weddings, making your special day elegant and memorable.",
+    "serviceDetails": [
+      {
+        "title": "Luxury Fleet",
+        "description": "Choose from Mercedes, BMW, Audi, and other premium models for your wedding."
+      },
+      {
+        "title": "Decorated Vehicles",
+        "description": "Beautifully decorated vehicles as per your theme and preferences."
+      },
+      {
+        "title": "Trained Chauffeurs",
+        "description": "Professional chauffeurs dressed for the occasion to add elegance to your event."
+      }
+    ],
+    "benefitPoints": [
+      "Customizable decoration packages",
+      "Pickup and drop for bride & groom",
+      "Hourly or full-day rental options",
+      "Luxury experience guaranteed"
+    ],
+    "serviceConditions": [
+      {
+        "title": "Advance Booking Required",
+        "description": "Wedding car bookings must be made at least 3 days prior to the event."
+      },
+      {
+        "title": "Decoration Customization",
+        "description": "Client must provide theme details at least 24 hours before pickup."
+      }
+    ]
+  },
+  {
+    "serviceTitle": "City Tours",
+    "serviceDescription": "Explore the city comfortably with our guided car tours covering major attractions and landmarks.",
+    "serviceDetails": [
+      {
+        "title": "Predefined Routes",
+        "description": "Select from curated city tour routes designed by travel experts."
+      },
+      {
+        "title": "Flexible Timings",
+        "description": "Plan your tour as per your convenience with hourly rental options."
+      },
+      {
+        "title": "Experienced Drivers",
+        "description": "Drivers are knowledgeable about local attractions and routes."
+      }
+    ],
+    "benefitPoints": [
+      "Ideal for tourists and business visitors",
+      "Air-conditioned vehicles for comfort",
+      "Customizable tour plans",
+      "Affordable and flexible pricing"
+    ],
+    "serviceConditions": [
+      {
+        "title": "Tour Duration",
+        "description": "Standard city tours last between 4 to 8 hours depending on the package."
+      },
+      {
+        "title": "Entry Fees",
+        "description": "Entry tickets to attractions are not included in the package."
+      }
+    ]
+  },
+  {
+    "serviceTitle": "Self-Drive Rentals",
+    "serviceDescription": "Freedom to drive your own car with our self-drive rental service offering privacy, flexibility, and convenience.",
+    "serviceDetails": [
+      {
+        "title": "Wide Selection of Cars",
+        "description": "Choose from economy hatchbacks to luxury SUVs as per your need."
+      },
+      {
+        "title": "Flexible Rental Periods",
+        "description": "Hourly, daily, weekly, or monthly rentals available."
+      },
+      {
+        "title": "Easy Documentation",
+        "description": "Quick verification and seamless booking process through our app or website."
+      }
+    ],
+    "benefitPoints": [
+      "Unlimited kilometers available on select plans",
+      "Fully sanitized vehicles before every trip",
+      "24/7 roadside assistance",
+      "No hidden charges"
+    ],
+    "serviceConditions": [
+      {
+        "title": "Driver’s License Requirement",
+        "description": "Valid driving license and ID proof are mandatory at the time of pickup."
+      },
+      {
+        "title": "Fuel Policy",
+        "description": "Vehicles must be returned with the same fuel level as at pickup."
+      }
+    ]
+  }
+]

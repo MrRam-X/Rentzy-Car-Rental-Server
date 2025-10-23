@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./config/db";
 import carRoutes from "./routes/carRoutes";
+import carServiceRoutes from "./routes/carServiceRoutes";
 import { BASE_URL, ROUTES } from "./appConstant";
 
 dotenv.config();
@@ -15,6 +16,7 @@ app.use(express.json());
 
 // Routes
 app.use(`${BASE_URL}/${ROUTES.CARS}`, carRoutes);
+app.use(`${BASE_URL}/${ROUTES.SERVICES}`, carServiceRoutes);
 
 connectDB().then(() => {
   app.listen(PORT, () => {
