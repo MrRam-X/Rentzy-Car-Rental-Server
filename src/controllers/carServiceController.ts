@@ -18,7 +18,7 @@ export const getCarServiceById = async (req: Request, res: Response) => {
     if (!car) return res.status(404).json({ message: "Service not found" });
     res.json(car);
   } catch (error) {
-    res.status(500).json({ message: "Error fetching Car Service", error });
+    res.status(500).json({ message: "Error fetching Car Service ", error });
   }
 };
 
