@@ -6,3 +6,9 @@ export const getDifferenceInDays = (date1: string, date2: string) => {
 
   return diffDays
 };
+
+export const getRandomElement = <T>(arr: T[]): T | undefined => {
+  if (arr.length === 0) return undefined;
+  const index = Math.floor(Math.random() * arr.length);
+  return arr[index];
+};

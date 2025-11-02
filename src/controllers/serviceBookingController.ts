@@ -3,7 +3,7 @@ import Razorpay from "razorpay";
 import crypto from "crypto";
 import ServiceBooking, { IServiceBooking } from "../models/ServiceBooking";
 import Car from "../models/Car";
-import { getDifferenceInDays } from "../utils/commonUtils";
+import { getDifferenceInDays, getRandomElement } from "../utils/commonUtils";
 
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID!,
@@ -27,51 +27,70 @@ export const createServiceBooking = async (
 ) => {
   try {
     //STEP 1: Calculate the total amount from the car object rent price/day
-    const { carId, fromDate, toDate } = req.body;
-    const carInfo = await Car.findById(carId);
-    const pricePerDay = carInfo?.pricePerDay || 1000;
-    const priceCurrency = carInfo?.priceCurrency || "";
-    const numberOfDaysForRent = getDifferenceInDays(fromDate, toDate);
-    const amount = numberOfDaysForRent * pricePerDay * 100; // amount in paise
-    const options = {
-      amount,
-      currency: "INR",
-      receipt: `receipt_${Date.now()}`,
-    };
+    const { carId, fromDate, toDate, serviceId } = req.body;
+    const carsDataList = await Car.find();
+    // Find Cars based on car id or provide random Car info
+    const carInfo = !carId
+      ? getRandomElement(carsDataList)
+      : carsDataList.find((carItem) => carItem._id === carId);
+    console.log()
+    if (!carInfo) {
+      res.send({
+        message: "No Cars Available at the moment",
+      });
+      return;
+    } else {
+      const pricePerDay = carInfo?.pricePerDay || 1000;
+      const priceCurrency = carInfo?.priceCurrency || "";
+      const numberOfDaysForRent = getDifferenceInDays(fromDate, toDate);
+      const amount = numberOfDaysForRent * pricePerDay * 100; // amount in paise
+      const options = {
+        amount,
+        currency: "INR",
+        receipt: `receipt_${Date.now()}`,
+      };
 
-    // STEP 2: Create the razorpay order
-    const order = await razorpay.orders.create(options);
+      // STEP 2: Create the razorpay order
+      const order = await razorpay.orders.create(options);
 
-    // STEP 3: Save the order in database
-    const data = req.body;
-    const serviceBooking = await ServiceBooking.create({
-      ...data,
-      orderId: order.id, // Razorpay order id
-      bookingInProgress: true,
-      bookingConfirmed: false,
-      priceCurrency,
-      currency: options.currency,
-      amount: amount / 100, // Convert amount in rupees
-      numberOfDaysForRent,
-      status: "Created",
-    });
-    res.status(201).json({
-      orderId: order.id,
-      amount: options.amount,
-      currency: options.currency,
-      success: true,
-      statusCode: 201,
-      message: `Booking successful. Your booking id is: ${serviceBooking._id}`,
-    });
+      // STEP 3: Save the order in database
+      const data = req.body;
+      const serviceBooking = await ServiceBooking.create({
+        ...data,
+        carId: carInfo._id,
+        carType: carInfo.carType,
+        carBrand: carInfo.brand,
+        carModel: carInfo.model,
+        orderId: order.id, // Razorpay order id
+        bookingInProgress: true,
+        bookingConfirmed: false,
+        priceCurrency,
+        currency: options.currency,
+        amount: amount / 100, // Convert amount in rupees
+        numberOfDaysForRent,
+        status: "Created",
+      });
+      res.status(201).json({
+        orderId: order.id,
+        amount: options.amount,
+        currency: options.currency,
+        success: true,
+        statusCode: 201,
+        message: `Booking successful. Your booking id is: ${serviceBooking._id}`,
+      });
+    }
   } catch (error) {
     res
-      .status(400)
+      .status(500)
       .json({ message: "Error occurred while making the booking", error });
   }
 };
 
 // Verify Booking Payment
-export const verifyServiceBookingPayment = async (req: Request, res: Response) => {
+export const verifyServiceBookingPayment = async (
+  req: Request,
+  res: Response
+) => {
   try {
     const { razorpay_order_id, razorpay_payment_id, razorpay_signature } =
       req.body;
