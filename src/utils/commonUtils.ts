@@ -1,4 +1,10 @@
+import { Types } from "mongoose";
+import { ICar } from "../models/Car";
 import { IServiceBooking } from "../models/ServiceBooking";
+
+export type CarsListObject = ICar & {
+  _id: Types.ObjectId;
+};
 
 export const getDifferenceInDays = (date1: string, date2: string) => {
   const d1 = new Date(date1).getTime();
@@ -6,7 +12,7 @@ export const getDifferenceInDays = (date1: string, date2: string) => {
 
   const diffDays = (d2 - d1) / (1000 * 60 * 60 * 24);
 
-  return diffDays
+  return diffDays;
 };
 
 export const getRandomElement = <T>(arr: T[]): T | undefined => {
@@ -20,9 +26,11 @@ export const getDateString = (date: Date) => {
   const month = String(date.getMonth() + 1).padStart(2, "0"); // months are 0‑based
   const day = String(date.getDate()).padStart(2, "0");
   return `${year}-${month}-${day}`;
-}
+};
 
-export const generatePaymentReceiptTemplate = (bookingOrder: IServiceBooking) => {
+export const generatePaymentReceiptTemplate = (
+  bookingOrder: IServiceBooking
+) => {
   return `
     <!DOCTYPE html>
       <html lang="en">
@@ -120,7 +128,9 @@ export const generatePaymentReceiptTemplate = (bookingOrder: IServiceBooking) =>
             </tr>
             <tr>
               <th>Rent Per Day</th>
-              <td>${bookingOrder.priceCurrency}${bookingOrder.carRentPerDay}</td>
+              <td>${bookingOrder.priceCurrency}${
+                bookingOrder.carRentPerDay
+              }</td>
             </tr>
             <tr>
               <th>Car Booked</th>
@@ -134,7 +144,9 @@ export const generatePaymentReceiptTemplate = (bookingOrder: IServiceBooking) =>
         </div>
 
         <div class="total">
-          <strong>Total Paid: ${bookingOrder.priceCurrency}${bookingOrder.amount}</strong>
+          <strong>Total Paid: ${bookingOrder.priceCurrency}${
+            bookingOrder.amount
+          }</strong>
         </div>
 
         <div class="footer">
@@ -143,5 +155,29 @@ export const generatePaymentReceiptTemplate = (bookingOrder: IServiceBooking) =>
         </div>
       </body>
     </html>
-  `
-}
+  `;
+};
+
+export const getCarInfoBasedOnPayload = (
+  carId: string,
+  carType: string,
+  carBrand: string,
+  carModel: string,
+  carsDataList: CarsListObject[]
+) => {
+  const filteredCarList = carId
+    ? carsDataList.filter((carItem) => carItem._id.toString() === carId)
+    : carsDataList.filter(
+        (carItem) =>
+          (!carType || carItem.carType === carType) &&
+          (!carBrand || carItem.brand === carBrand) &&
+          (!carModel || carItem.model === carModel)
+      );
+
+  const filteredCarInfo =
+    filteredCarList.length > 0
+      ? filteredCarList[0]
+      : getRandomElement(carsDataList);
+
+  return filteredCarInfo;
+};

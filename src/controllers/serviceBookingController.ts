@@ -6,7 +6,7 @@ import Car from "../models/Car";
 import {
   getDifferenceInDays,
   generatePaymentReceiptTemplate,
-  getRandomElement,
+  getCarInfoBasedOnPayload,
 } from "../utils/commonUtils";
 import puppeteer from "puppeteer";
 
@@ -32,13 +32,17 @@ export const createServiceBooking = async (
 ) => {
   try {
     //STEP 1: Calculate the total amount from the car object rent price/day
-    const { carId, fromDate, toDate, serviceId } = req.body;
+    const { carId, carType, carBrand, carModel, fromDate, toDate } = req.body;
     const carsDataList = await Car.find();
-    // Find Cars based on car id or provide random Car info
-    const carInfo = !carId
-      ? getRandomElement(carsDataList)
-      : carsDataList.find((carItem) => carItem._id === carId);
-    console.log();
+    // Find Cars based on carId || type, brand and model || provide random Car info
+    const carInfo = getCarInfoBasedOnPayload(
+      carId,
+      carType,
+      carBrand,
+      carModel,
+      carsDataList
+    );
+
     if (!carInfo) {
       res.send({
         message: "No Cars Available at the moment",
@@ -143,7 +147,7 @@ export const getServiceBookingReceipt = async (req: Request, res: Response) => {
       message: "Order not found",
     });
 
-  const html = generatePaymentReceiptTemplate(bookingOrder)
+  const html = generatePaymentReceiptTemplate(bookingOrder);
 
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
