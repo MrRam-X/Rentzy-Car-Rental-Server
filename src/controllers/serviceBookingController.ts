@@ -3,7 +3,12 @@ import Razorpay from "razorpay";
 import crypto from "crypto";
 import ServiceBooking, { IServiceBooking } from "../models/ServiceBooking";
 import Car from "../models/Car";
-import { getDifferenceInDays, getRandomElement } from "../utils/commonUtils";
+import {
+  getDifferenceInDays,
+  generatePaymentReceiptTemplate,
+  getRandomElement,
+} from "../utils/commonUtils";
+import puppeteer from "puppeteer";
 
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID!,
@@ -33,7 +38,7 @@ export const createServiceBooking = async (
     const carInfo = !carId
       ? getRandomElement(carsDataList)
       : carsDataList.find((carItem) => carItem._id === carId);
-    console.log()
+    console.log();
     if (!carInfo) {
       res.send({
         message: "No Cars Available at the moment",
@@ -61,6 +66,7 @@ export const createServiceBooking = async (
         carType: carInfo.carType,
         carBrand: carInfo.brand,
         carModel: carInfo.model,
+        carRentPerDay: carInfo.pricePerDay,
         orderId: order.id, // Razorpay order id
         bookingInProgress: true,
         bookingConfirmed: false,
@@ -124,6 +130,34 @@ export const verifyServiceBookingPayment = async (
   } catch (error) {
     res.status(500).json({ message: "Unexpected Error occured", error });
   }
+};
+
+// Generate PDF invoice for payment
+export const getServiceBookingReceipt = async (req: Request, res: Response) => {
+  const bookingOrder = await ServiceBooking.findOne({
+    orderId: req.params.orderId,
+  });
+  if (!bookingOrder)
+    return res.status(404).json({
+      statusCode: 404,
+      message: "Order not found",
+    });
+
+  const html = generatePaymentReceiptTemplate(bookingOrder)
+
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  await page.setContent(html, { waitUntil: "networkidle0" });
+
+  const pdfBuffer = await page.pdf({ format: "A4" });
+  await browser.close();
+
+  res.setHeader("Content-Type", "application/pdf");
+  res.setHeader(
+    "Content-Disposition",
+    `attachment; filename=receipt-${bookingOrder.orderId}.pdf`
+  );
+  res.send(pdfBuffer);
 };
 
 // Delete a booking

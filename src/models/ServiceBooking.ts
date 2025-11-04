@@ -13,6 +13,7 @@ export interface IServiceBooking {
   carType: string;
   carBrand: string;
   carModel: string;
+  carRentPerDay: number;
   bookingInProgress: boolean;
   bookingConfirmed: boolean;
   orderId: string;
@@ -22,6 +23,7 @@ export interface IServiceBooking {
   numberOfDaysForRent: number;
   currency: string;
   priceCurrency: string;
+  createdAt: Date;
 }
 
 export type ServiceBookingDocument = HydratedDocument<IServiceBooking>;
@@ -40,6 +42,7 @@ const serviceBookingSchema = new Schema<IServiceBooking>(
     carType: { type: String, required: false },
     carBrand: { type: String, required: false },
     carModel: { type: String, required: false },
+    carRentPerDay: { type: Number, required: false },
     bookingInProgress: { type: Boolean, required: false },
     bookingConfirmed: { type: Boolean, required: false },
     orderId: { type: String, required: false },
@@ -49,6 +52,7 @@ const serviceBookingSchema = new Schema<IServiceBooking>(
     numberOfDaysForRent: { type: Number, required: false },
     currency: { type: String, required: false },
     priceCurrency: { type: String, required: false },
+    createdAt: { type: Date, required: false },
   },
   { timestamps: true }
 );
