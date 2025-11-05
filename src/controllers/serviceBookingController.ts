@@ -154,11 +154,11 @@ export const getServiceBookingReceipt = async (req: Request, res: Response) => {
   // Register Unicode fonts
   doc.registerFont(
     "Regular",
-    path.join(__dirname, "../assets/fonts/Roboto-Regular.ttf")
+    path.join(process.cwd(), "src/assets/fonts/Roboto-Regular.ttf")
   );
   doc.registerFont(
     "SemiBold",
-    path.join(__dirname, "../assets/fonts/Roboto-SemiBold.ttf")
+    path.join(process.cwd(), "src/assets/fonts/Roboto-SemiBold.ttf")
   );
 
   // Set headers so browser downloads it
