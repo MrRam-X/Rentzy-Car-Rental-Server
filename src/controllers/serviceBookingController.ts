@@ -1,14 +1,15 @@
 import { Request, Response } from "express";
 import Razorpay from "razorpay";
 import crypto from "crypto";
+import PDFDocument from "pdfkit";
+import path from "path";
 import ServiceBooking, { IServiceBooking } from "../models/ServiceBooking";
 import Car from "../models/Car";
 import {
   getDifferenceInDays,
-  generatePaymentReceiptTemplate,
   getCarInfoBasedOnPayload,
+  getDateString,
 } from "../utils/commonUtils";
-import puppeteer from "puppeteer";
 
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID!,
@@ -147,21 +148,109 @@ export const getServiceBookingReceipt = async (req: Request, res: Response) => {
       message: "Order not found",
     });
 
-  const html = generatePaymentReceiptTemplate(bookingOrder);
+  // Create a new PDF document
+  const doc = new PDFDocument({ margin: 50 });
 
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-  await page.setContent(html, { waitUntil: "networkidle0" });
+  // Register Unicode fonts
+  doc.registerFont(
+    "Regular",
+    path.join(__dirname, "../assets/fonts/Roboto-Regular.ttf")
+  );
+  doc.registerFont(
+    "SemiBold",
+    path.join(__dirname, "../assets/fonts/Roboto-SemiBold.ttf")
+  );
 
-  const pdfBuffer = await page.pdf({ format: "A4" });
-  await browser.close();
-
+  // Set headers so browser downloads it
   res.setHeader("Content-Type", "application/pdf");
   res.setHeader(
     "Content-Disposition",
     `attachment; filename=receipt-${bookingOrder.orderId}.pdf`
   );
-  res.send(pdfBuffer);
+
+  // Pipe PDF to response
+  doc.pipe(res);
+
+  // Header
+  doc
+    .font("SemiBold")
+    .fontSize(20)
+    .fillColor("#444")
+    .text("Rentzy - Car Rental", { align: "center" })
+    .moveDown();
+  doc
+    .font("SemiBold")
+    .fontSize(24)
+    .fillColor("#3399cc")
+    .text("Payment Receipt", { align: "center" })
+    .moveDown();
+
+  // Order details
+  doc.font("Regular").fontSize(18).fillColor("black");
+  doc.table({
+    rowStyles: (i) => {
+      return {
+        border: false,
+        backgroundColor: i % 2 === 0 ? "#ccc" : "#ddd",
+      };
+    },
+    data: [
+      ["Order ID", bookingOrder.orderId],
+      ["Payment ID", bookingOrder.paymentId],
+      ["Booking Date", getDateString(bookingOrder.createdAt)],
+      ["Customer Name", bookingOrder.fullName],
+      ["Customer Email", bookingOrder.email],
+      ["Car Pickup Date", bookingOrder.fromDate],
+      ["Car Return Date", bookingOrder.toDate],
+      ["Days Booked For", bookingOrder.numberOfDaysForRent.toString()],
+      [
+        "Rent Per Day",
+        `${bookingOrder.priceCurrency}${bookingOrder.carRentPerDay}.00`,
+      ],
+      ["Car Booked", `${bookingOrder.carBrand} ${bookingOrder.carModel}`],
+      ["Purpose (Service Type)", bookingOrder.serviceType],
+      ["Total Paid", `${bookingOrder.priceCurrency}${bookingOrder.amount}.00`],
+    ],
+  });
+  doc.moveDown();
+  doc.moveDown();
+
+  // Footer
+  doc
+    .fontSize(16)
+    .fillColor("gray")
+    .text("Thank you for your payment!", { align: "center" });
+
+  // Get page dimensions
+  const pageHeight = doc.page.height;
+  const pageWidth = doc.page.width;
+  const bottomY = pageHeight - 70; // 50px above bottom margin
+
+  // Left side: contact info
+  doc
+    .font("Regular")
+    .fontSize(10)
+    .fillColor("gray")
+    .text("Contact: support@example.com | +91-9876543210", 50, bottomY, {
+      align: "left",
+    });
+
+  // Right side: current date/time
+  const now = new Date().toLocaleString("en-IN", {
+    dateStyle: "medium",
+    timeStyle: "short",
+  });
+  doc
+    .font("Regular")
+    .fontSize(10)
+    .fillColor("gray")
+    .text(now, -50, bottomY, {
+      align: "right",
+      width: pageWidth - 20, // ensures right alignment
+    });
+
+  // Finalize PDF
+  doc.end();
 };
 
 // Delete a booking
