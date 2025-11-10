@@ -1,0 +1,134 @@
+[
+  {
+    "brand": "Maruti Suzuki",
+    "model": "Swift",
+    "year": 2023,
+    "pricePerDay": 35,
+    "priceCurrency": "USD",
+    "carType": "Economy",
+    "generalInformation": "A compact hatchback known for fuel efficiency, easy handling, and affordable maintenance.",
+    "benefitPoints": [
+      "Excellent mileage",
+      "Compact design",
+      "Smooth manual & AMT options"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Manual",
+    "luggage": 2,
+    "fuel": "Petrol",
+    "airBags": 2,
+    "airCondition": true,
+    "minAgeForDrive": 21,
+    "primaryImageUri": "marutiSuzukiSwift.jpg",
+    "imageGalleryUris": [
+      "marutiSuzukiSwift2.jpg",
+      "marutiSuzukiSwiftInterior.jpg",
+      "marutiSuzukiSwiftInterior2.jpg",
+      "marutiSuzukiSwiftInterior3.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "200 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand i10 Nios",
+    "year": 2023,
+    "pricePerDay": 38,
+    "priceCurrency": "USD",
+    "carType": "Economy",
+    "generalInformation": "A comfortable and stylish hatchback ideal for city drives and short trips.",
+    "benefitPoints": [
+      "Touchscreen infotainment",
+      "Dual airbags",
+      "Great mileage"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Automatic",
+    "luggage": 2,
+    "fuel": "Petrol",
+    "airBags": 2,
+    "airCondition": true,
+    "minAgeForDrive": 21,
+    "primaryImageUri": "grandI10Nios.jpg",
+    "imageGalleryUris": [
+      "grandI10Nios2.jpg",
+      "grandI10NiosInterior.jpg",
+      "grandI10NiosInterior2.jpg",
+      "grandI10NiosInterior3.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "210 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Tata",
+    "model": "Tiago",
+    "year": 2023,
+    "pricePerDay": 33,
+    "priceCurrency": "USD",
+    "carType": "Economy",
+    "generalInformation": "A safe and reliable hatchback with solid build quality and affordable rental rates.",
+    "benefitPoints": [
+      "5-star Global NCAP rating",
+      "Harman audio",
+      "Spacious cabin"
+    ],
+    "doors": 4,
+    "passengers": 5,
+    "transmission": "Manual",
+    "luggage": 2,
+    "fuel": "Petrol",
+    "airBags": 2,
+    "airCondition": true,
+    "minAgeForDrive": 21,
+    "primaryImageUri": "/images/cars/tata-tiago.jpg",
+    "imageGalleryUris": [
+      "/images/cars/tata-tiago-front.jpg",
+      "/images/cars/tata-tiago-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "220 km/day included" }
+    ],
+    "available": true
+  },
+  {
+    "brand": "Renault",
+    "model": "Kwid",
+    "year": 2023,
+    "pricePerDay": 30,
+    "priceCurrency": "USD",
+    "carType": "Economy",
+    "generalInformation": "An entry-lPetrolel compact car with SUV-inspired styling and great mileage.",
+    "benefitPoints": [
+      "Compact yet spacious",
+      "Touchscreen infotainment",
+      "High ground clearance"
+    ],
+    "doors": 4,
+    "passengers": 4,
+    "transmission": "Manual",
+    "luggage": 2,
+    "fuel": "Petrol",
+    "airBags": 2,
+    "airCondition": true,
+    "minAgeForDrive": 21,
+    "primaryImageUri": "/images/cars/renault-kwid.jpg",
+    "imageGalleryUris": [
+      "/images/cars/renault-kwid-side.jpg",
+      "/images/cars/renault-kwid-interior.jpg"
+    ],
+    "rentalConditions": [
+      { "title": "Fuel Policy", "description": "Full to full" },
+      { "title": "Mileage Limit", "description": "200 km/day included" }
+    ],
+    "available": true
+  }
+]
