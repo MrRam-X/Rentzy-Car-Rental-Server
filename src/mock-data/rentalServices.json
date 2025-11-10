@@ -1,0 +1,34 @@
+[
+  {
+    "locationAddress": "3JFG+9J8 Sardar Vallabhbhai Patel International Airport, Hansol, Ahmedabad, Gujarat 382475",
+    "locationAbbreviation": "Airport Ahmedabad"
+  },
+    {
+    "locationAddress": "Tulip Bunglow Road Nr. Enigma Towers, Thaltej, Ahmedabad, Gujarat 380054",
+    "locationAbbreviation": "Palladium Ahmedabad"
+  },
+    {
+    "locationAddress": "Airport More, Bagdogra, Siliguri, West Bengal 734014",
+    "locationAbbreviation": "Airport Siliguri"
+  },
+    {
+    "locationAddress": "Njp Market, NJP Railway Sta Rd, Ram Nagar Colony, Dabgram, Siliguri, West Bengal 734007",
+    "locationAbbreviation": "NJP Rail Stn. Siliguri"
+  },
+    {
+    "locationAddress": "Palam Gurgaon Road, IGI Airport T3 Road, opposite Centura Hotel `, New Delhi, Delhi 110037",
+    "locationAbbreviation": "Airport Delhi"
+  },
+    {
+    "locationAddress": "2nd Floor, Cult, 49, Ring Rd, Block H, Lajpat Nagar III, Lajpat Nagar, New Delhi, Delhi 110024",
+    "locationAbbreviation": "Lajpat Nagar, Delhi"
+  },
+    {
+    "locationAddress": "Near Kullu - Manali Airport, Bhuntar, Himachal Pradesh 175125",
+    "locationAbbreviation": "Airport Manali"
+  },
+    {
+    "locationAddress": "Shop no 14, near Bangalore Bakery, Alto, Dabolim, Mormugao, Goa 403806",
+    "locationAbbreviation": "Airport Goa"
+  }
+]

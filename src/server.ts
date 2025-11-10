@@ -5,6 +5,7 @@ import connectDB from "./config/db";
 import carRoutes from "./routes/carRoutes";
 import carServiceRoutes from "./routes/carServiceRoutes";
 import serviceBookingRoutes from "./routes/serviceBookingRoutes"
+import rentalStationRoutes from "./routes/rentalStationRoutes"
 import { BASE_URL, ROUTES } from "./appConstant";
 
 dotenv.config();
@@ -19,6 +20,7 @@ app.use(express.json());
 app.use(`${BASE_URL}/${ROUTES.CARS}`, carRoutes);
 app.use(`${BASE_URL}/${ROUTES.SERVICES}`, carServiceRoutes);
 app.use(`${BASE_URL}/${ROUTES.BOOKINGS}`, serviceBookingRoutes);
+app.use(`${BASE_URL}/${ROUTES.RENTAL_STATIONS}`, rentalStationRoutes);
 
 connectDB().then(() => {
   app.listen(PORT, () => {
