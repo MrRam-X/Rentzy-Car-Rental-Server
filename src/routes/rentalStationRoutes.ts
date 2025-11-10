@@ -1,12 +1,12 @@
 import { Router } from "express";
 import {
   getAllRentalStations,
-  createCarService,
+  createRentalStations,
 } from "../controllers/rentalStationController";
 
 const router = Router();
 
 router.get("/", getAllRentalStations);
-router.post("/create", createCarService);
+router.post("/create", createRentalStations);
 
 export default router;

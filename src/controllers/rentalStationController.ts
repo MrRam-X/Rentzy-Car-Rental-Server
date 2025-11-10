@@ -12,7 +12,7 @@ export const getAllRentalStations = async (req: Request, res: Response) => {
 };
 
 // POST one or multiple Rental Stations
-export const createCarService = async (req: Request, res: Response) => {
+export const createRentalStations = async (req: Request, res: Response) => {
   try {
     const data = req.body;
     const rentalStations = Array.isArray(data)
