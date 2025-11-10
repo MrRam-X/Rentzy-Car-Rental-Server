@@ -3,5 +3,6 @@ export const ROUTES = {
     CARS: 'cars',
     SERVICES: 'services',
     BOOKINGS: 'bookings',
-    RENTAL_STATIONS: 'rental-stations'
+    RENTAL_STATIONS: 'rental-stations',
+    AUTO_RENTALS: 'auto-rentals'
 }
