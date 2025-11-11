@@ -4,5 +4,6 @@ export const ROUTES = {
     SERVICES: 'services',
     BOOKINGS: 'bookings',
     RENTAL_STATIONS: 'rental-stations',
-    AUTO_RENTALS: 'auto-rentals'
+    AUTO_RENTALS: 'auto-rentals',
+    CONTACT_US: 'contact-us',
 }

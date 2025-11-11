@@ -7,6 +7,7 @@ import carServiceRoutes from "./routes/carServiceRoutes";
 import serviceBookingRoutes from "./routes/serviceBookingRoutes"
 import rentalStationRoutes from "./routes/rentalStationRoutes"
 import autoRentalRoutes from "./routes/autoRentalRoutes"
+import contactUsRoutes from "./routes/contactUsRoutes"
 import { BASE_URL, ROUTES } from "./appConstant";
 
 dotenv.config();
@@ -23,6 +24,7 @@ app.use(`${BASE_URL}/${ROUTES.SERVICES}`, carServiceRoutes);
 app.use(`${BASE_URL}/${ROUTES.BOOKINGS}`, serviceBookingRoutes);
 app.use(`${BASE_URL}/${ROUTES.RENTAL_STATIONS}`, rentalStationRoutes);
 app.use(`${BASE_URL}/${ROUTES.AUTO_RENTALS}`, autoRentalRoutes);
+app.use(`${BASE_URL}/${ROUTES.CONTACT_US}`, contactUsRoutes);
 
 connectDB().then(() => {
   app.listen(PORT, () => {
