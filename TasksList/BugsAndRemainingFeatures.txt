@@ -1,0 +1,29 @@
+============================================
+======== Bugs & Remaining Features =========
+============================================
+
+- Navbar active route highlight (done)
+- Update booking form pickup location type (done)
+- Fix Transmission filter not working properly (done)
+- Devlop Get in touch feature in contact page (done)
+- Fix scroll is working when spinner is showing (done)
+- Add Error Boundary to catch unexpected white screen errors (done)
+- Image not showing when clicking on left arrow in image gallery (done)
+- Fix clicking a link not going to top (done)
+
+- Text Size keeep standard across the application
+- Fix Ui dotted line showing in the footer
+- Fix by default all accordions are open in lg screens
+- Display toaster messages for not availabe/developed Features
+- Polish the Car Rental Process section to guide the users properly
+- Display proper text/info/content in overall application
+- (Optional) Make all carousels auto slide with animation
+- Add Readme file description for both client and server
+
+
+============================================
+============ Code Refactoring ==============
+============================================
+
+- Use constant instead of using plain text for app wide values (e.g- Routes)
+- Keep Common logic in one util or hook instead of repeating
